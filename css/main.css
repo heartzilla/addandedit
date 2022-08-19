@@ -1,0 +1,95 @@
+body{
+    background-color: rgb(180, 179, 179);
+}
+#btn{
+    border-radius: 20px;
+    text-align: center;
+    font-family:cursive;
+    background-color: rgb(217, 241, 241);
+}
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 2em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    width: 50%;
+}
+
+.styled-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+#mymodal{
+    display: none;
+    background-color: rgb(111, 108, 108);
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+#modal-content{
+    margin: 20% auto;
+    margin-left: 600px;
+}
+#modal-content input{
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 10px;
+}
+#modal-content button{
+    padding: 10px 20px;
+    background-color: #009879;
+    border-radius: 10px;
+    font-size: 1.1em;
+}
+#Edmymodal{
+    display: none;
+    background-color: rgb(111, 108, 108);
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+#Edmodal-content{
+    margin: 15% auto;
+    margin-left: 600px;
+}
+#Edmodal-content input{
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 10px;
+}
+#Edmodal-content button{
+    padding: 10px 20px;
+    background-color: #009879;
+    border-radius: 10px;
+    font-size: 1.1em;
+}
+
+
